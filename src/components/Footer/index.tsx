@@ -9,7 +9,12 @@ interface FooterProps {
 function Footer({ children }: FooterProps) {
   return (
     <Container>
-      <h1>Footer</h1>
+      <div>
+        <p>Email: pedroaugustoleandro123@gmail.com</p>
+        <p>Likedin: Pedro Leandro</p>
+        <p>WhatsApp: (21) 967530875</p>
+      </div>
+      <h4>Criado por Pedro Leandro</h4>
       {children}
     </Container>
   );

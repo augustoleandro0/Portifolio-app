@@ -39,7 +39,7 @@ function Projects({ children }: ProjectsProps) {
         <Projeto>
           <div>
             <h1>App tarefas</h1>
-            <h2>Em em andamento...</h2>
+            <h2>Em andamento...</h2>
             <Buttons>
               <button>
                 <Link href="https://github.com/augustoleandro0/AppTarefaso" passHref>

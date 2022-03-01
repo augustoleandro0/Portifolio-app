@@ -3,9 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-  const experimental = {
+  const compiler = {
     // Enables the styled-components SWC transform
     styledComponents: true,
   }
 
-module.exports = {nextConfig, experimental}
+module.exports = {nextConfig, compiler}
