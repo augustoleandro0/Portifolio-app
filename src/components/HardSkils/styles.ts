@@ -3,13 +3,15 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     margin-top: -20px;
+    scroll-snap-align: start;
+    
 
     @media (max-width: 100px){
          width: 149%;
      }
     > h1 {
         margin: 20px;
-        padding-top: 30px;
+        padding-top: 70px;
         text-align: center;
         color: #3a41e4;
     }

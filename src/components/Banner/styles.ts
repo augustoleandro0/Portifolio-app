@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    margin-top: 60px;
+    height: 90vh;
+    margin-top: 80px;
     background-color: #0d0c0c;
     display: flex;
     justify-content: space-between;
-    height: 560px;
-    top: 0;
     color: #fff;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    scroll-snap-align: start;
+
 
     @media (max-width: 100px){
          width: 149%;

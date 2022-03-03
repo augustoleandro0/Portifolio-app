@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-
+    scroll-snap-align: start;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;

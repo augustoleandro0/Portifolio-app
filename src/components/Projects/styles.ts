@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    scroll-snap-align: start;
      @media (max-width: 100px){
          width: 149%;
      }
     > h1{
-         padding-top: 40px;
+        padding-top: 70px;
+        padding-bottom: 30px;
          text-align: center;
          color: #3a41e4;
      }
