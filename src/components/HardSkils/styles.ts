@@ -23,6 +23,7 @@ export const Cards = styled.div`
     padding: 20px;
     @media (max-width: 900px){
         flex-direction: column;
+        padding: 10px 30px 20px 10px;
     }
 
     > div {

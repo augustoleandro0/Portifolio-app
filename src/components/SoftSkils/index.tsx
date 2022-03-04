@@ -23,7 +23,7 @@ function SoftSkils({ children }: SoftSkilsProps) {
             <h3>Principais ferramentas de trabalho</h3>
             <p>Versionamento de codigo com git e github.<br/>
                comunicação com slack e discord<br/>
-               controle de fluxo de trabalho con trelo e similares.
+               controle de fluxo de trabalho con trello e similares.
             </p>
           </div>
         </Card>

@@ -37,6 +37,10 @@ export const Navigator = styled.div`
     > ul li {
         margin: 10px; 
     }
+
+    @media (max-width: 540px){
+        display: none;
+     }
 `;
 
 export const Baixar = styled.div`
@@ -49,4 +53,10 @@ export const Baixar = styled.div`
         background-color: #000;
         border-radius:  10px;
    }
+
+   @media (max-width: 540px){
+        >button {
+            padding: 10px
+        }
+     }
 `;

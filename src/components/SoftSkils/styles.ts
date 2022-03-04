@@ -20,7 +20,6 @@ export const Container = styled.div`
      > div img{
         background-color: #3a41e4;
         border-radius: 30px;
-        padding: 30px;
         color: #fff;
      }
 `;

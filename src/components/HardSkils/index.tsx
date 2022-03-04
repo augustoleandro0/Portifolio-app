@@ -21,7 +21,7 @@ function Conhecimento({ children }: ConhecimentoProps) {
           <div>
             <JavaScriptIcon />
             <h3>JavaScript e TypeScript</h3>
-            <p>Manipulação da DOM, criação de funçãoes para consumo de apis,<br /> implemetações de regras de negocios voltadas para o front end, padroes de typagem e controle de dados, </p>
+            <p>Manipulação da DOM, criação de funções para consumo de apis,<br /> implementações de regras de negocios voltadas para o front end, padroes de typagem e controle de dados, </p>
           </div>
         </Card>
 
