@@ -9,7 +9,6 @@ interface ScrollStopProps {
 function ScrollStop({ children }: ScrollStopProps) {
   return (
     <Container>
-      <h1>ScrollStop</h1>
       {children}
     </Container>
   );
